@@ -27,6 +27,17 @@
 	</div>
 	</a>
 	<div class="container">
+		<div id="topbar">
+			<div id="topbarL">
+				<img src="c:/strona/pobrane/pobrane.png" />
+			</div>
+			<div id="topbarR">
+				<span class="bigtitle">O praktykach słów kilka</span>
+				<div style="height: 15px;"></div>
+				Nasze praktyki odbywały się w Szkole Podstawowej im. Adama Mickiewicza w Żerkowie. Między 6 marca, a 1 kwietnia nauczyliśmy się wielu nowych rzeczy, ugruntowaliśmy posiadaną już wiedzę i generalnie rzecz ujmując - przyjemnie i pracowicie spędziliśmy ten czas!
+			</div>
+			<div style="clear:both;"></div>
+		</div>
 	<h2>Praktykanci </h2>
 	<ul class="myUL">
 	<li>Wiktor Jankiewicz</li>
@@ -87,6 +98,7 @@
 	<br/><br/>
 	<center><h2>Dodatkowa dokumentacja wykonywanych czynności </h2></center>
 
+
 <div id="slider1" position: "center; style= margin: 0 auto; text-align:center;">
   <img src="c:/strona/slajdy/0.jpeg" width="750" height="600" style="border: 1px solid #B46060;" />
   <img src="c:/strona/slajdy/1.jpeg" width="750" height="600" style="border: 1px solid #B46060;"/>
@@ -96,11 +108,11 @@
 </div>
 
 
-<div><pre>
+<center><div>
 	W trakcie praktyk dokonywaliśmy montażu różnorodnych podzespołów komputerowych. Na poniższych slajdach umieszczone zostały zdjęcia poszczególnych etapów montażu.
- <ol>
+ <ol class="myOL">
     <li>Przygotowanie płyty głównej
-         <ul>
+         <ul class="myUL1">
            <li>Montaż procesora</li>
            <li>Aplikacja pasty termoprzewodzącej</li>
 		   <li>Instalacja chłodzenia procesora </li>
@@ -108,7 +120,7 @@
          </ul>
     </li>
     <li>Montaż podzespołów w obudowie komputera
-        <ul>
+        <ul class="myUL2">
            <li>Montaż płyty głównej</li>
            <li>Montaż zasilacza</li>
 		   <li>Montaż dysków HDD i SSD</li>
@@ -116,7 +128,7 @@
         </ul>
     </li>
 	    <li>Prawidłowe wpięcie poszczególnych przewodów
-        <ul>
+        <ul class="myUL3">
            <li>Przewodu od chłodzenia procesora </li>
            <li>Przewodu USB 2.0</li>
 		   <li>Przewodów: PWR SW; RESET SW; HDD LED; PLED</li>
@@ -125,7 +137,7 @@
         </ul>
 
  </ol> 
-</div></pre>
+</div></center>
 <center><h3> Konfiguracja aktualizacji SO, skanowanie w poszukiwaniu wirusów oraz instalacja systemu.</h3></center>
   <center><img src="c:/strona/zrzuty/zrzut1pozmianie.png" width="705" height="373" style="margin: 5px; padding: 5px; border: 1px solid #B46060; border-style: dashed;"/></center>
     <center><img src="c:/strona/zrzuty/zrzut2pozmianie.png" width="705" height="371" style="margin: 5px; padding: 5px; border: 1px solid #B46060; border-style: dashed;"/></center>
@@ -133,6 +145,30 @@
 	    <center><img src="c:/strona/zrzuty/zrzut4.png" width="705" height="600" style="margin: 5px; padding: 5px; border: 1px solid #B46060; border-style: dashed;"/></center>
 		  <center><img src="c:/strona/zrzuty/zrzut5pozmianie.png" width="705" height="372" style="margin: 5px; padding: 5px; border: 1px solid #B46060; border-style: dashed;"/></center>
 
+
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+  <script>
+  // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
   
 <div><center>
   <img class="mySlides" src="c:/strona/linux/linux.png" width="750" height="600" style="margin: 5px; padding: 5px; border: 1px solid #B46060; border-style: dashed;" >
@@ -163,9 +199,33 @@ function showDivs(n) {
 }
 </script>
 </div>
- 
+ <div id="footer">
+			Praktyki Zawodowe 2023 - dodatkowa dokumentacja. Strona w sieci od 2023r. &copy; Wszelkie prawa zastrzeżone
+		</div>
   
-  
-  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+  <script>
+  // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+
   </body>
 </html>
