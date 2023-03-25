@@ -125,11 +125,11 @@ ul.myUL3 {
 }
 
 {
-	<img class="mySlides" src="c:/strona/linux/linux.png" width="750" height="600" style="border: 1px solid #B46060;" >
-	<img class="mySlides" src="c:/strona/linux/linux1.png" width="750" height="600" style="border: 1px solid #B46060;" >
-	<img class="mySlides" src="c:/strona/linux/linux2.png" width="750" height="600" style="border: 1px solid #B46060;" >
-	<img class="mySlides" src="c:/strona/linux/linux3.png" width="750" height="600" style="border: 1px solid #B46060;" >
-	<img class="mySlides" src="c:/strona/linux/linux4.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="linux.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="linux1.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="linux2.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="linux3.png" width="750" height="600" style="border: 1px solid #B46060;" >
+	<img class="mySlides" src="linux4.png" width="750" height="600" style="border: 1px solid #B46060;" >
 	
 	<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
